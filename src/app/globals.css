@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+:root {
+  --font-caveat: "Caveat", cursive;
+  --font-geist-sans: "Geist", sans-serif;
+  --font-geist-mono: "Geist Mono", monospace;
+}
+
+.font-caveat {
+  font-family: var(--font-caveat);
+}
+.font-geist {
+  font-family: var(--font-geist-sans);
+}
+.font-mono {
+  font-family: var(--font-geist-mono);
+}
+
+
+
+/* .no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} */
+
+.react-horizontal-scrolling-menu--scroll-container {
+  overflow: hidden;
+}
+
+.react-horizontal-scrolling-menu--wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.gradient-border-r {
+  background: linear-gradient(#FDF6F6, #FDF6F6) padding-box,
+  linear-gradient(267.8deg, rgba(217, 41, 47, 0.5) 0%, rgba(240, 240, 240, 0.5) 100%) border-box;
+  border-radius: 15px;
+  border: 1px solid transparent;
+}
+
+.gradient-border-l {
+  background: linear-gradient(#FDF6F6, #FDF6F6) padding-box,
+    linear-gradient(to right, rgba(217, 41, 47, 0.5), rgba(240, 240, 240, 0.5)) border-box;
+    border-radius: 15px;
+    border: 1px solid transparent;
+}
