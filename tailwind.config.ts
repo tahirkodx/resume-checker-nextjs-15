@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'mobile-bg': "url('/assets/img/GetInTouch/rectangle.png')",
+        'desktop-bg': "url('/assets/img/GetInTouch/rectangle-bg.png')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

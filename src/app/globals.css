@@ -68,3 +68,10 @@ body {
     border-radius: 15px;
     border: 1px solid transparent;
 }
+
+.custom-shape {
+  border-top-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
